@@ -113,34 +113,37 @@ function App() {
           </div>
         </div>
 
-        <div className="group2  d-flex flex-column flex-md-row justify-content-md-between">
-          <div className="box1 mx-2 mb-3 mb-md-0">
+        <div className="group2 d-flex flex-column flex-md-row flex-md-wrap justify-content-center">
+          <div className="box1 mx-2 mb-3 mb-md-0 order-4 order-md-1 order-lg-1 mt-2">
             <div className="birth"><img src={birth} alt=".." /></div>
             <p>تاريخ الميلاد</p>
             <p className="line"></p>
             <h2>{result.dateOfBirth || 'غير معروف'}</h2>
           </div>
 
-          <div className="box1 mx-2 mb-3 mb-md-0">
+          <div className="box1 mx-2 mb-3 mb-md-0 order-3 order-md-3 order-lg-2 mt-2">
             <div className="birth"><img src={location1} alt=".." /></div>
             <p>محل الاقامة</p>
             <p className="line"></p>
             <h2>{result.location || 'غير معروف'}</h2>
           </div>
 
-          <div className="box1 mx-2 mb-3 mb-md-0">
+          <div className="box1 mx-2 mb-3 mb-md-0 order-2 order-md-4 order-lg-3 mt-2">
             <div className="birth"><img src={gender1} alt=".." /></div>
             <p>النوع</p>
             <p className="line"></p>
             <h2>{result.gender || 'غير معروف'}</h2>
           </div>
-          <div className="box1 box4 mx-2 mb-3 mb-md-0">
 
+          <div className="box1 box4 mx-2 mb-3 mb-md-0 order-1 order-md-2 order-lg-4 mt-2">
             <h2> قدرنا نعرف الأتي</h2>
           </div>
         </div>
 
+
       </div>
+
+
     </>
   );
 }

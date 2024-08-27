@@ -54,13 +54,13 @@ h1{
 }
 
 .group1{
-  width: 822px;
+  max-width: 822px;
   height: 203px;
   margin-top: 155px;
 }
 
 .group1 p{
-  line-height: 70px;
+  line-height: 50px;
   font-family: 'Helvetica Neue';
 }
 
@@ -122,7 +122,7 @@ h1{
 }
 
 .group2{
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .box1{
